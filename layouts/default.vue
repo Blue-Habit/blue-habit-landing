@@ -56,7 +56,7 @@
       </li>
     </ul>
   </nav>
-  <div class="container mx-auto py-8">
+  <div>
     <slot />
   </div>
 </template>
