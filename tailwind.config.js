@@ -24,9 +24,6 @@ module.exports = {
         xl: "1280px",
       },
     },
-    fontSize: {
-      80: "80px",
-    },
   },
   plugins: [],
 };
