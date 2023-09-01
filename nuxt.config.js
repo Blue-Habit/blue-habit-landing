@@ -1,8 +1,8 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
-export default defineNuxtConfig({
+export default {
   devtools: { enabled: true },
-  modules:[
+  modules: [
     ["@nuxtjs/eslint-module", {}],
-    ['@nuxtjs/tailwindcss',{}]
-  ]
-})
+    ["@nuxtjs/tailwindcss", {}],
+  ],
+};
