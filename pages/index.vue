@@ -1,9 +1,16 @@
 <template>
-  <div></div>
+  <div>
+    <Hero />
+  </div>
 </template>
 
 <script>
-export default {};
+import Hero from "@/components/Hero";
+export default {
+  components: {
+    Hero,
+  },
+};
 </script>
 
 <style lang="scss" scoped></style>
