@@ -1,9 +1,9 @@
 <template>
-  <div class="grid lg:grid-cols-2 md:grid-cols-1 bg-primary py-12 h-5/6 px-12">
-    <div class="w-1/2 justify-center mx-auto pt-12">
+  <div class="grid lg:grid-cols-2 md:grid-cols-1 bg-primary h-full pr-16 py-7">
+    <div>
       <img src="@/assets/img/Hero.png" alt="" />
     </div>
-    <div class="text-white">
+    <div class="text-white sm:px-8 pt-9">
       <h1 class="font-bold text-7xl">
         Empowering Change Through Innovative
         <br />Products
