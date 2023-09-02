@@ -1,8 +1,8 @@
 <template>
   <nav
-    class="nav flex flex-wrap items-center justify-between p-4 px-12 bg-primary"
+    class="nav flex flex-wrap items-center justify-between p-4 lg:px-16 sm:px-5 bg-primary"
   >
-    <div class="flex flex-no-shrink items-center mr-6 py-3 text-grey-darkest">
+    <div class="flex flex-no-shrink items-center mr-6 py-3">
       <NuxtLink to="/">
         <img src="@/assets/img/Logo.png" alt="Logo" />
       </NuxtLink>
@@ -13,19 +13,17 @@
       class="menu-icon block cursor-pointer md:hidden px-2 py-4 relative select-none"
       for="menu-btn"
     >
-      <span class="navicon bg-grey-darkest flex items-center relative"></span>
+      <span class="navicon flex items-center relative"></span>
     </label>
 
-    <ul
-      class="menu border-b md:border-none flex justify-end list-reset m-0 w-full md:w-auto"
-    >
-      <li class="border-t md:border-none">
+    <ul class="menu flex justify-end list-reset m-0 w-full md:w-auto">
+      <li>
         <a href="#about" class="block md:inline-block px-4 py-3 text-white"
           >About us</a
         >
       </li>
 
-      <li class="border-t md:border-none">
+      <li>
         <a
           href="#vision"
           class="block md:inline-block px-4 py-3 no-underline text-white"
@@ -33,21 +31,21 @@
         >
       </li>
 
-      <li class="border-t md:border-none">
+      <li>
         <a
           href="#mission"
           class="block md:inline-block px-4 py-3 no-underline text-white"
           >Mission</a
         >
       </li>
-      <li class="border-t md:border-none">
+      <li>
         <a
           href="#product"
           class="block md:inline-block px-4 py-3 no-underline text-white"
           >Product</a
         >
       </li>
-      <li class="border-t md:border-none">
+      <li>
         <a
           href="#team"
           class="block md:inline-block px-4 py-3 no-underline text-white"
@@ -78,7 +76,7 @@
     height: 100%;
     transition: all 0.2s ease-out;
     content: "";
-    background: #3d4852;
+    background: #fff;
   }
 
   .navicon::before {
