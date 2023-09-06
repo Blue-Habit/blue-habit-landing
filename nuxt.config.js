@@ -5,4 +5,11 @@ export default {
     ["@nuxtjs/eslint-module", {}],
     ["@nuxtjs/tailwindcss", {}],
   ],
+  postcss: {
+    plugins: {
+      tailwindcss: {},
+      autoprefixer: {},
+    },
+  },
+  css: ["~/assets/css/main.css"],
 };
