@@ -5,7 +5,7 @@
       Throught Collaborations,
       <br />We Produce Best Solutions
     </h1>
-    <div class="grid lg:grid-cols-2 sm:grid-cols-1 lg:px-16 sm:px-5 gap-5">
+    <div class="grid lg:grid-cols-2 sm:grid-cols-1 lg:px-16 sm:px-5 gap-9 pt-5">
       <div class="w-auto">
         <img src="@/assets/img/img-gawean.png" class="w-full" alt="..." />
         <div class="p-4">
