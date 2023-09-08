@@ -1,18 +1,18 @@
 <template>
   <div>
     <Hero />
-    <CardTeams />
+    <Teams />
   </div>
 </template>
 
 <script>
 import Hero from "@/components/Hero";
-import CardTeams from "@/components/CardTeams";
+import Teams from "@/components/CardTeams";
 
 export default {
   components: {
     Hero,
-    CardTeams,
+    Teams,
   },
 };
 </script>
