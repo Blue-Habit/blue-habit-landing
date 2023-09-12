@@ -1,14 +1,17 @@
 <template>
   <div>
-    <Hero />
+    <!-- <Hero /> -->
+    <MyFooter />
   </div>
 </template>
 
 <script>
-import Hero from "@/components/Hero";
+// import Hero from "@/components/Hero";
+import MyFooter from "@/components/MyFooter";
 export default {
   components: {
-    Hero,
+    // Hero,
+    MyFooter,
   },
 };
 </script>
