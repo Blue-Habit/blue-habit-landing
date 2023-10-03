@@ -12,6 +12,7 @@ import Hero from "@/components/Hero";
 import OurFocus from "@/components/OurFocus";
 import VisionMision from "@/components/VisionMision";
 import Products from "@/components/Products";
+
 export default {
   components: {
     Hero,
