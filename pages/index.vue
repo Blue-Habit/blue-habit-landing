@@ -3,6 +3,7 @@
     <Hero />
     <OurFocus />
     <VisionMision />
+    <Products />
   </div>
 </template>
 
@@ -10,13 +11,14 @@
 import Hero from "@/components/Hero";
 import OurFocus from "@/components/OurFocus";
 import VisionMision from "@/components/VisionMision";
-import OurFocus from "../components/OurFocus.vue";
+import Products from "@/components/Products";
 
 export default {
   components: {
     Hero,
     OurFocus,
     VisionMision,
+    Products,
   },
 };
 </script>
