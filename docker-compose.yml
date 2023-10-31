@@ -5,3 +5,8 @@ services:
       context: .
     ports:
       - "3000:3000"
+    networks:
+      - app-net
+networks:
+  app-net:
+    external: true
