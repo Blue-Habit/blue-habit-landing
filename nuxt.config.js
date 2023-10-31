@@ -1,5 +1,5 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
-export default {
+export default defineNuxtConfig({
   devtools: { enabled: true },
   modules: [
     ["@nuxtjs/eslint-module", {}],
@@ -12,4 +12,5 @@ export default {
     },
   },
   css: ["~/assets/css/main.css"],
-};
+  ssr:false
+});
