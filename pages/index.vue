@@ -5,6 +5,7 @@
     <VisionMision />
     <Products />
     <Teams />
+    <Cta />
   </div>
 </template>
 
@@ -14,14 +15,15 @@ import OurFocus from "@/components/OurFocus";
 import VisionMision from "@/components/VisionMision";
 import Products from "@/components/Products";
 import Teams from "@/components/Teams";
-
+import Cta from "@/components/Cta";
 export default {
   components: {
     Hero,
     OurFocus,
     VisionMision,
     Products,
-    Teams
+    Teams,
+    Cta
   },
 };
 </script>
