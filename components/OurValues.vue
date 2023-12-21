@@ -1,6 +1,6 @@
 <template>
-    <div class="container bg-gray-100 py-9">
-        <div class="grid lg:grid-cols-2 sm:grid-cols-1 lg:px-16 sm:px-5">
+    <div class="bg-gray-100 py-9">
+        <div class="grid lg:grid-cols-2 sm:grid-cols-1 lg:px-16 sm:px-5 justify-between">
             <div class="flex flex-col">
                 <h1 class="text-primary text-2xl font-bold mb-5">Our Values</h1>
                 <h1 class="text-5xl font-bold mb-5">Nurturing Growth and Excellence</h1>
@@ -8,13 +8,25 @@
                     culture celebrates
                     personal and professional growth, while adhering to industry project management standards.</p>
             </div>
-            <div class="flex flex-col">
+            <div class="flex flex-col gap-7 w-full">
                 <div class="bg-white w-full p-5">
                     <img :src="growth" alt="Growth Icon" class="w-1/12 mb-3">
                     <h1 class="text-xl font-bold mb-3">Learning and Growth Space</h1>
                     <p class="text-gray-700">Our team's growth is paramount. We've established a learning space for
                         acquiring new skills and
                         insights, while our growth space focuses on personal development.</p>
+                </div>
+                <div class="bg-white w-full p-5">
+                    <img :src="supportive" alt="Supportive Icon" class="w-1/12 mb-3">
+                    <h1 class="text-xl font-bold mb-3">Supportive Culture</h1>
+                    <p class="text-gray-700">Our culture revolves around support and rewards. We've created an environment
+                        where personal and professional development are valued and encouraged.</p>
+                </div>
+                <div class="bg-white w-full p-5">
+                    <img :src="empowering" alt="Empowering Icon" class="w-1/12 mb-3">
+                    <h1 class="text-xl font-bold mb-3">Industry-Leading Project Management</h1>
+                    <p class="text-gray-700">In our pursuit of excellence, our project management practices stand up to
+                        industry standards.</p>
                 </div>
             </div>
         </div>
