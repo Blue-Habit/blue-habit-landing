@@ -1,5 +1,5 @@
 <template>
-    <div class="bg-gray-100 py-9">
+    <div class="bg-gray-100 py-16">
         <div class="grid lg:grid-cols-2 sm:grid-cols-1 lg:px-16 sm:px-5 justify-between">
             <div class="flex flex-col">
                 <h1 class="text-primary text-2xl font-bold mb-5">Our Values</h1>
