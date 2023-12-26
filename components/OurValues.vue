@@ -18,25 +18,32 @@
         </div>
     </div>
 </template>
-  
-<script>
-import growth from "@/assets/img/icon-growth.png"
-import supportive from "@/assets/img/icon-supportive.png"
-import empowering from "@/assets/img/icon-empowering.png"
 
-export default {
-    name: "OurValues",
-    data() {
-        return {
-            values: [
-                { title: "Learning and Growth Space", icon: growth, description: "Our team's growth is paramount. We've established a learning space for acquiring new skills and insights, while our growth space focuses on personal development." },
-                { title: "Supportive Culture", icon: supportive, description: "Our culture revolves around support and rewards. We've created an environment where personal and professional development are valued and encouraged." },
-                { title: "Industry-Leading Project Management", icon: empowering, description: "In our pursuit of excellence, our project management practices stand up to industry standards." },
-            ]
-        };
-    }
-};
+<script setup lang="ts">
+import growth from "@/assets/img/icon-growth.png";
+import supportive from "@/assets/img/icon-supportive.png";
+import empowering from "@/assets/img/icon-empowering.png";
+
+const values = ref([
+    {
+        title: "Learning and Growth Space",
+        icon: growth,
+        description:
+            "Our team's growth is paramount. We've established a learning space for acquiring new skills and insights, while our growth space focuses on personal development.",
+    },
+    {
+        title: "Supportive Culture",
+        icon: supportive,
+        description:
+            "Our culture revolves around support and rewards. We've created an environment where personal and professional development are valued and encouraged.",
+    },
+    {
+        title: "Industry-Leading Project Management",
+        icon: empowering,
+        description:
+            "In our pursuit of excellence, our project management practices stand up to industry standards.",
+    },
+]);
 </script>
-  
+
 <style lang="scss" scoped></style>
-  
