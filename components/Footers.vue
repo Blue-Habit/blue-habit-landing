@@ -32,8 +32,5 @@
     </footer>
 </template>
 
-<script>
-export default {
-    name: "Footers"
-}
+<script setup lang="ts">
 </script>
