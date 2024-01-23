@@ -48,10 +48,7 @@
   </div>
 </template>
 
-<script>
-export default {
-  name: "VisionMision",
-};
+<script setup lang="ts">
 </script>
 
 <style lang="scss" scoped></style>

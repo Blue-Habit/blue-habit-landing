@@ -11,16 +11,26 @@
   </div>
 </template>
 
-<script>
-export default {
-  name: "CardTeams",
-  props: {
-    name: String,
-    position: String,
-    linkedinUrl: String,
-    imageSrc: String,
+<script setup lang="ts">
+
+defineProps({
+  name:{
+    type:String,
+    default:()=>""
   },
-};
+  position:{
+    type:String,
+    default:()=>""
+  },
+  linkedinUrl:{
+    type:String,
+    default:()=>""
+  },
+  imageSrc:{
+    type:String,
+    default:()=>""
+  }
+})
 </script>
 
 <style lang="scss" scoped></style>
