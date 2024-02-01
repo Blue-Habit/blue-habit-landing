@@ -1,9 +1,9 @@
 <template>
-  <div class="teams mx-auto pb-9 bg-gray-100">
+  <div id="team" class="teams mx-auto pb-9 bg-gray-100">
     <h1 class="text-primary text-xl lg:px-16 sm:px-5">Our Teams</h1>
     <div class="grid lg:grid-cols-2 sm:grid-cols-1">
       <h1 class="text-5xl text-gray-900 font-bold pt-3 lg:px-16 sm:px-5">
-        Exceptional and <br/>
+        Exceptional and <br />
         trusty challengers
       </h1>
       <div class="block lg:pr-16 sm:px-5">
@@ -11,30 +11,19 @@
           We firmly believe that there's no path to success where we stand alone
           on an island. It's together that we flourish and achieve greatness.
         </p>
-        <button
-            class="bg-primary hover:bg-primary-dark py-2 px-3 text-white rounded"
-        >
+        <button class="bg-primary hover:bg-primary-dark py-2 px-3 text-white rounded">
           About Us
         </button>
       </div>
     </div>
   </div>
-  <div
-      class="grid lg:grid-cols-3 sm:grid-cols-1 lg:px-16 sm:px-5 gap-7 pt-5 bg-gray-100"
-  >
-    <CardTeams
-        v-for="teamMember in teamMembers"
-        :key="teamMember.id"
-        :name="teamMember.name"
-        :position="teamMember.position"
-        :imageSrc="teamMember.imageSrc"
-        :linkedinUrl="teamMember.linkedinUrl"
-    />
+  <div class="grid lg:grid-cols-3 sm:grid-cols-1 lg:px-16 sm:px-5 gap-7 pt-5 bg-gray-100">
+    <CardTeams v-for="teamMember in teamMembers" :key="teamMember.id" :name="teamMember.name"
+      :position="teamMember.position" :imageSrc="teamMember.imageSrc" :linkedinUrl="teamMember.linkedinUrl" />
   </div>
 </template>
 
 <script setup lang="ts">
-import CardTeams from "./CardTeams";
 import imgMario from "@/assets/img/img-mario.png";
 import imgTrian from "@/assets/img/img-trian.png";
 import imgFirman from "@/assets/img/img-firman.png";

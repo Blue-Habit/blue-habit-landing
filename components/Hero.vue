@@ -1,5 +1,5 @@
 <template>
-  <div class="grid lg:grid-cols-2 md:grid-cols-1 bg-primary h-full pr-16 py-7">
+  <div id="about" class="grid lg:grid-cols-2 md:grid-cols-1 bg-primary h-full pr-16 py-7">
     <div>
       <img src="@/assets/img/Hero.png" alt="" />
     </div>

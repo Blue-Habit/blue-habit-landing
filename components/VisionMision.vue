@@ -1,5 +1,5 @@
 <template>
-  <div class="vision mx-auto py-9 text-gray-100">
+  <div id="vision" class="vision mx-auto py-9 text-gray-100">
     <h1 class="text-primary text-xl lg:px-16 sm:px-5 text-red-400">
       Our Vision
     </h1>
@@ -18,11 +18,7 @@
   <div class="mision mx-auto">
     <div class="grid lg:grid-cols-2 sm:grid-cols-1 justify-between">
       <div class="grid grid-rows-2">
-        <img
-          src="@/assets/img/img-mision.png"
-          alt=""
-          class="pt-16 w-4/5 pb-16 lg:pl-16 sm:px-5"
-        />
+        <img src="@/assets/img/img-mision.png" alt="" class="pt-16 w-4/5 pb-16 lg:pl-16 sm:px-5" />
         <div class="pt-16 flex-column">
           <img src="@/assets/img/img-mision3.png" alt="" />
         </div>
@@ -30,7 +26,7 @@
 
       <div class="grid grid-rows-2">
         <img src="@/assets/img/img-mision2.png" class="w-full" />
-        <div class="pe-8">
+        <div id="mission" class="pe-8">
           <h1 class="text-primary text-xl">Our Mision</h1>
           <h1 class="text-5xl pt-3 font-bold text-gray-900">
             Empowering <br />
