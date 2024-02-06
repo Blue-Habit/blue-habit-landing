@@ -1,6 +1,6 @@
 <template>
-  <div class="teams mx-auto pb-9 pt-16 bg-gray-100">
-    <h1 class="text-primary text-3xl lg:px-16 sm:px-5 font-bold">Our Teams</h1>
+  <div id="team" class="teams mx-auto pb-9 bg-gray-100">
+    <h1 class="text-primary text-xl lg:px-16 sm:px-5">Our Teams</h1>
     <div class="grid lg:grid-cols-2 sm:grid-cols-1">
       <h1 class="text-5xl text-gray-900 font-bold pt-3 lg:px-16 sm:px-5">
         Exceptional and <br />
@@ -24,7 +24,6 @@
 </template>
 
 <script setup lang="ts">
-import CardTeams from "./CardTeams";
 import imgMario from "@/assets/img/img-mario.png";
 import imgTrian from "@/assets/img/img-trian.png";
 import imgFirman from "@/assets/img/img-firman.png";

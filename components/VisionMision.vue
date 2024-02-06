@@ -26,8 +26,8 @@
 
       <div class="grid grid-rows-2">
         <img src="@/assets/img/img-mision2.png" class="w-full" />
-        <div class="pe-8">
-          <h1 class="text-primary text-3xl font-bold">Our Mision</h1>
+        <div id="mission" class="pe-8">
+          <h1 class="text-primary text-xl">Our Mision</h1>
           <h1 class="text-5xl pt-3 font-bold text-gray-900">
             Empowering <br />
             Change Through <br />Self-Initiation
