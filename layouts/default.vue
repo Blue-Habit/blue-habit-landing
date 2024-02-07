@@ -1,7 +1,5 @@
 <template>
-  <nav
-    class="nav flex flex-wrap items-center justify-between p-4 lg:px-16 sm:px-5 bg-primary"
-  >
+  <nav class="nav flex flex-wrap items-center justify-between p-4 lg:px-16 sm:px-5 bg-primary">
     <div class="flex flex-no-shrink items-center mr-6 py-3">
       <NuxtLink to="/">
         <img src="@/assets/img/Logo.png" alt="Logo" />
@@ -9,48 +7,27 @@
     </div>
 
     <input class="menu-btn hidden" type="checkbox" id="menu-btn" />
-    <label
-      class="menu-icon block cursor-pointer md:hidden px-2 py-4 relative select-none"
-      for="menu-btn"
-    >
+    <label class="menu-icon block cursor-pointer md:hidden px-2 py-4 relative select-none" for="menu-btn">
       <span class="navicon flex items-center relative"></span>
     </label>
 
     <ul class="menu flex justify-end list-reset m-0 w-full md:w-auto">
       <li>
-        <a href="#about" class="block md:inline-block px-4 py-3 text-white"
-          >About us</a
-        >
+        <NuxtLink to="#about" class="block md:inline-block px-4 py-3 text-white">About us</NuxtLink>
       </li>
 
       <li>
-        <a
-          href="#vision"
-          class="block md:inline-block px-4 py-3 no-underline text-white"
-          >Vision</a
-        >
+        <NuxtLink to="#vision" class="block md:inline-block px-4 py-3 no-underline text-white">Vision</NuxtLink>
       </li>
 
       <li>
-        <a
-          href="#mission"
-          class="block md:inline-block px-4 py-3 no-underline text-white"
-          >Mission</a
-        >
+        <NuxtLink to="#mission" class="block md:inline-block px-4 py-3 no-underline text-white">Mission</NuxtLink>
       </li>
       <li>
-        <a
-          href="#product"
-          class="block md:inline-block px-4 py-3 no-underline text-white"
-          >Product</a
-        >
+        <NuxtLink to="#product" class="block md:inline-block px-4 py-3 no-underline text-white">Product</NuxtLink>
       </li>
       <li>
-        <a
-          href="#team"
-          class="block md:inline-block px-4 py-3 no-underline text-white"
-          >Team</a
-        >
+        <NuxtLink to="#team" class="block md:inline-block px-4 py-3 no-underline text-white">Team</NuxtLink>
       </li>
     </ul>
   </nav>
@@ -62,6 +39,10 @@
 <script setup></script>
 
 <style>
+html {
+  scroll-behavior: smooth;
+}
+
 @media (max-width: 767px) {
   .navicon {
     width: 1.125em;
@@ -87,28 +68,28 @@
     top: -5px;
   }
 
-  .menu-btn:not(:checked) ~ .menu {
+  .menu-btn:not(:checked)~.menu {
     display: none;
   }
 
-  .menu-btn:checked ~ .menu {
+  .menu-btn:checked~.menu {
     display: block;
   }
 
-  .menu-btn:checked ~ .menu-icon .navicon {
+  .menu-btn:checked~.menu-icon .navicon {
     background: transparent;
   }
 
-  .menu-btn:checked ~ .menu-icon .navicon::before {
+  .menu-btn:checked~.menu-icon .navicon::before {
     transform: rotate(-45deg);
   }
 
-  .menu-btn:checked ~ .menu-icon .navicon::after {
+  .menu-btn:checked~.menu-icon .navicon::after {
     transform: rotate(45deg);
   }
 
-  .menu-btn:checked ~ .menu-icon .navicon::before,
-  .menu-btn:checked ~ .menu-icon .navicon::after {
+  .menu-btn:checked~.menu-icon .navicon::before,
+  .menu-btn:checked~.menu-icon .navicon::after {
     top: 0;
   }
 }

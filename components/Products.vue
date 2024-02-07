@@ -1,5 +1,5 @@
 <template>
-  <div class="products mx-auto py-9">
+  <div id="product" class="products mx-auto py-9">
     <h1 class="text-primary text-xl lg:px-16 sm:px-5">Our Products</h1>
     <h1 class="text-5xl text-gray-900 font-bold pt-3 lg:px-16 sm:px-5">
       Throught Collaborations,
