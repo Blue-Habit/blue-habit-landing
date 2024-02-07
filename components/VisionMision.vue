@@ -1,6 +1,6 @@
 <template>
-  <div id="vision" class="vision mx-auto py-9 text-gray-100">
-    <h1 class="text-primary text-xl lg:px-16 sm:px-5 text-red-400">
+  <div class="vision mx-auto py-9 text-gray-100">
+    <h1 class="text-primary text-3xl lg:px-16 sm:px-5 font-bold">
       Our Vision
     </h1>
     <div class="grid lg:grid-cols-2 sm:grid-cols-1 lg:px-16 sm:px-5">

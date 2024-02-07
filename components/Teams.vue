@@ -17,7 +17,7 @@
       </div>
     </div>
   </div>
-  <div class="grid lg:grid-cols-3 sm:grid-cols-1 lg:px-16 sm:px-5 gap-7 pt-5 bg-gray-100">
+  <div class="grid lg:grid-cols-3 sm:grid-cols-1 lg:px-16 sm:px-5 gap-7 pt-9 pb-16 bg-gray-100">
     <CardTeams v-for="teamMember in teamMembers" :key="teamMember.id" :name="teamMember.name"
       :position="teamMember.position" :imageSrc="teamMember.imageSrc" :linkedinUrl="teamMember.linkedinUrl" />
   </div>
